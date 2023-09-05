@@ -5,7 +5,7 @@
 }
 
 .page-header{
-  background-color: rgb(49, 97, 224);
+  background-color: rgb(42, 94, 232);
 }
 
 .block-header{
@@ -33,7 +33,6 @@
   margin: 25px;
   padding-right: 25px;
 }
-
 .link-header a{
   color: white;
   text-decoration: none;
@@ -46,9 +45,45 @@
   color: white;
 }
 
+.hero{
+  margin: auto;
+  width: 100%;
+  height: 800px;
+  background-image: url("../img/jumbo.png");
+  background-size: cover;
+}
+
+#title{
+  color: white;
+  font-size: 100px;
+  margin-top: 120px;
+}
+
+#par-hero{
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.btn-hero{
+  margin: 25px;
+  background-color: white;
+  border: none;
+  padding: 15px 28px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 25px;
+}
+.black{
+  background-color: rgb(36, 39, 42);
+  color: white;
+}
+
 .container{
   max-width: 1200px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .row{
@@ -66,6 +101,7 @@
 
 .justify-center{
   justify-content: center;
+  align-items: center;
 }
 
 .bg-gray{
