@@ -121,8 +121,10 @@ ul, li{
 }
 
 /*FOURTH SECTION*/
-#img-about-photo-animation{
-  
+.cta-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #subt-h3{
   font-size: 35px;
