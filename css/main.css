@@ -4,9 +4,46 @@
   box-sizing: border-box;
 }
 
+.page-header{
+  background-color: rgb(49, 97, 224);
+}
+
 .block-header{
-  max-width: 1000px;
+  max-width: 2000px;
   margin: 0 auto;
+}
+
+#logo{
+  margin: 15px;
+}
+
+.btn-header{
+  margin: 15px;
+  background-color: white;
+  border: none;
+  padding: 10px 22px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 25px;
+}
+
+.link-header{
+  display: inline-block;
+  margin: 25px;
+  padding-right: 25px;
+}
+
+.link-header a{
+  color: white;
+  text-decoration: none;
+}
+.link-header a:visited{
+  text-decoration: none;
+}
+.link-header a:hover{
+  text-decoration: underline;
+  color: white;
 }
 
 .container{
