@@ -120,11 +120,18 @@ ul, li{
   justify-content: left;
 }
 
+#img-person{
+  width: 100%;
+}
+
 /*FOURTH SECTION*/
 .cta-section{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#img-cta-section{
+  width: 100%;
 }
 #subt-h3{
   font-size: 35px;
