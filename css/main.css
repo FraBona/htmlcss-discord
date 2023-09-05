@@ -45,7 +45,7 @@
   color: white;
 }
 
-/* FIRST SECTION*/
+/* HERO SECTION*/
 .hero{
   margin: auto;
   width: 100%;
@@ -83,7 +83,7 @@
   color: white;
 }
 
-/* SECOND SECTION*/
+/* FIRST SECTION*/
 #img-about-talk{
   width: 85%;
 }
@@ -104,10 +104,16 @@
   font-size: 20px;
 }
 
-/*THIRD SECTION*/
-#img-col8-chanel{
+/*SECOND SECTION*/
+.img-col8-chanel{
   display: flex;
   justify-content: end;
+}
+
+/*THIRD SECTION*/
+#img-about-logo-person{
+  display: flex;
+  justify-content: left;
 }
 
 
